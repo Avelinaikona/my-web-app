@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание персонажа</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="character-creation-container">
+        <div class="attribute-selection">
+            <button onclick="selectAttribute('skin')">Цвет кожи</button>
+            <button onclick="selectAttribute('hair')">Причёска</button>
+            <button onclick="selectAttribute('verh')">Верхняя одежда</button>
+            <button onclick="selectAttribute('niz')">Нижняя одежда</button>
+        </div>
+
+        <div class="character-preview">
+            <img id="character-skin" src="Attributes/skin/1.png" alt="Цвет кожи">
+            <img id="character-hair" src="Attributes/hair/1.png" alt="Причёска">
+            <img id="character-verh" src="Attributes/verh/1.png" alt="Верхняя одежда">
+            <img id="character-niz" src="Attributes/niz/1.png" alt="Нижняя одежда">
+        </div>
+
+        <div class="attribute-options" id="attribute-options">
+            <!-- Здесь будут иконки атрибутов -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
